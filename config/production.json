@@ -1,0 +1,6 @@
+{
+  "name": "SpAlloc - Production",
+  "database": {
+    "name": "spalloc"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SpAlloc - Development",
+  "database": {
+    "user": "postgres",
+    "password": null,
+    "name": "spallocdev",
+    "host": "127.0.0.1"
+  }
+}
