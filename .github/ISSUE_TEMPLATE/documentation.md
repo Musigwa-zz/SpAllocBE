@@ -1,6 +1,6 @@
 ---
 name: Documentation request
-about: "🎯Suggest the documentation update to consider🎯"
+about: "🎯Suggest the documentation update to consider 🎯"
 title: State your documentation request title
 labels: documentation
 assignees: Musigwa
