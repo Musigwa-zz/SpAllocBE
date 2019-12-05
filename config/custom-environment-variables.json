@@ -3,6 +3,6 @@
     "user": "DB_USER",
     "password": "DB_PASSWORD",
     "host": "DB_HOST",
-    "use_env_variable": "DB_URL"
+    "url": "DB_URL"
   }
 }

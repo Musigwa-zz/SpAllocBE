@@ -2,6 +2,7 @@
   "name": "SpAlloc",
   "database": {
     "port": 5432,
-    "logging": false
+    "logging": false,
+    "DEBUG":"app:*"
   }
 }

@@ -1,21 +1,26 @@
-const { statusCodes } = require('../helpers/constants');
+const debug = require('debug');
 
-const invalidUrl = (req, res) => {
-  res.status(404).json({
-    message: `invalid url: "${req.url}"`
-  })
-}
+const errorDebug = debug('app:error');
+const { statusCodes, errorMessages } = require('../helpers/constants');
 
-module.exports = (cb) => async (req, res, next) => {
+/**
+ * @description This function wraps each request pipeline's middleware inside a [try{}catch(){}] block
+ * @author MUSIGWA Pacifique
+ * @param  {function} callback The middleware to be wrapped
+ * @return  {function|any} The callback function or an error
+ */
+module.exports = (callback) => async (req, res, next) => {
   try {
-    await cb(req, res, next)
+    await callback(req, res, next)
   } catch (err) {
-    let error = new Error('Internal server error');
+    let error = new Error();
+    error.message = errorMessages().SERVER_ERROR
     error.status = statusCodes.INTERNAL_SERVER_ERROR;
     if (err && err.details) {
       ([error] = err.details);
       error.status = statusCodes.BAD_REQUEST;
     }
+    errorDebug("what is the error", error, err);
     return res.status(error.status).json(error);
   }
 }
