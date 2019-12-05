@@ -1,9 +1,9 @@
 ---
 name: Bug report
-title: "Provide the bug title here"
-about: "🐞Flag any malfunctions to help us fix them quickly🐞"
+about: "\U0001F41EFlag any malfunctions to help us fix them quickly\U0001F41E"
+title: Provide the bug title here
 labels: bug
-assignees: ''
+assignees: Musigwa
 
 ---
 

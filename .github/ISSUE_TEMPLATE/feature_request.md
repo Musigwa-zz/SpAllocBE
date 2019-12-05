@@ -1,9 +1,9 @@
 ---
 name: Feature request
-title: "State your feature request title"
 about: "✨Suggest some new feature to help us improve✨"
+title: State your feature request title
 labels: enhancement
-assignees: ''
+assignees: Musigwa
 
 ---
 
