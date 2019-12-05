@@ -7,6 +7,13 @@ module.exports = {
   host: config.get('database.host'),
   port: config.get('database.port'),
   dialect: 'postgres',
-  logging: config.get('database.logging'),
-  // use_env_variable: config.get('database.use_env_variable')
+  logging: console.log,
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  },
+  // use_env_variable: config.has('database.url')
+  //   && config.get('database.url')
 };

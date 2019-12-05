@@ -4,6 +4,6 @@
     "user": "postgres",
     "password": null,
     "name": "spallocdev",
-    "host": "127.0.0.1"
+    "host": "localhost"
   }
 }

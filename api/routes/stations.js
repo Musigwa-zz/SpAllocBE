@@ -1,7 +1,7 @@
 const { Router } = require('express');
 
 const errorHandler = require('../middleware/errorHandler');
-const Stations = require('../controllers/stations');
+const Stations = require('../controllers/station');
 
 const router = Router();
 
