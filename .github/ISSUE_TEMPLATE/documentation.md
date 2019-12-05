@@ -7,12 +7,12 @@ assignees: Musigwa
 
 ---
 
-### Which part of the code(module) to be socumented?
+### Which part or code snippet to be documented?
 
 > Please describe some part to be documented and give a clear and concise description why this is important. 
 > Ex. It's better to provide the contribution guide to help new devs......
 
-#### :book: Suggest which easiest way to add this doc :book:
+#### :book: Suggest which easiest way to document it :book:
 
 > A clear and straight forward way of enhancing the doc.
 > Ex: Simply add `./docs/name_of_the_file.md`
