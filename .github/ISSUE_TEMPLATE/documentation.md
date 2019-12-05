@@ -1,6 +1,6 @@
 ---
 name: Documentation request
-about: ":point_left: Suggest some the part of project which needs documentation to help people find their way around easily :point_right:"
+about: "🎯 Suggest some the part of project which needs documentation to help people find their way around easily 🎯"
 title: State your documentation request title
 labels: documentation
 assignees: Musigwa
