@@ -9,7 +9,7 @@ assignees: Musigwa
 
 ### Which part or code snippet to be documented?
 
-> Please describe some part to be documented and give a clear and concise description why this is important. 
+> Please describe some parts to be documented and give a clear and concise description of why this is important. 
 > Ex. It's better to provide the contribution guide to help new devs......
 
 #### :book: Suggest which easiest way to document it :book:
