@@ -21,6 +21,15 @@ assignees: Musigwa
 
 > A clear list of Titles or subtitles and headers the doc should include
 
+#### Links to the relevant templates
+
+> [README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+
+#### Links to specific module part
+
+> - [StationController](https://github.com/Musigwa/SpAllocBE/blob/68a52f14f62f5701483d2302fb92decf2743ef72/api/controllers/stations.js#L17)
+> - [Station model](https://github.com/Musigwa/SpAllocBE/blob/68a52f14f62f5701483d2302fb92decf2743ef72/api/models/index.js)
+
 #### Additional context
 
 > Add any other context or screenshots about the feature request here.
